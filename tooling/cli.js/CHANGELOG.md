@@ -1,5 +1,10 @@
 # Changelog
 
+## \[1.0.0-beta.6]
+
+- Throw error on `cli.rs` download failure instead of silent exit.
+  - [fd033464](https://www.github.com/tauri-apps/tauri/commit/fd0334645b415b8be574d44256194f601227cb40) fix: tauri init may failed with no error message. (fix [#2079](https://www.github.com/tauri-apps/tauri/pull/2079)) ([#2117](https://www.github.com/tauri-apps/tauri/pull/2117)) on 2021-06-30
+
 ## \[1.0.0-beta.5]
 
 - Improve error message when the product name is invalid.
